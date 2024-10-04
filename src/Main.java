@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-       int n;
+      /* int n;
        int m;
        int i;
 
@@ -18,7 +18,24 @@ public class Main {
         if(n>= 0 && m>= 0){
             for(int a=n; a<=m; a=a+i){
                 System.out.print(a+" ");
-            }
+
+
+
+
+            }*/
+        //-----------------------EJERCICIO 2-----------------------------
+        //2.- Implementar la impresión de su nombre n veces.
+
+        String nombre;
+        int n;
+
+        System.out.println("Ingrese su nombre: ");
+        nombre = sc.nextLine();
+        System.out.println("cuantas veces desea repetir: ");
+        n=sc.nextInt();
+
+        for(int a=1 ; a<=n ; a++){
+            System.out.print(nombre + " ");
         }
 
     }
